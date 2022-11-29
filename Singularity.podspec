@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary             = "The Singularity SDK provides basic classes and method used across other framewroks"
   s.description         = "The Singularity SDK provides basic classes and method used across other framewroks. It used for manage entity and wallets"
 
-  s.source              = { :git => "",
+  s.source              = { :git => "https://github.com/coinbrix/Singularity-iOS.git",
                             :tag => "#{s.version}"
                           }
   

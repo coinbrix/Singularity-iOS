@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "singularity-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/coinbrix/Singularity-iOS",
+      "state" : {
+        "branch" : "main",
+        "revision" : "2dd77c4ccabecf7888fdc125f5de870e80e41c57"
+      }
+    }
+  ],
+  "version" : 2
+}
