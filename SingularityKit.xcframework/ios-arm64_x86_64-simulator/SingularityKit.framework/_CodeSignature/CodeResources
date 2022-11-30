@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		ipOBJ30s/UnEW0wzvwVd82Y6MqA=
+		U/E1FPCKV01gj/bzonHv9pPT1Rs=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		toyto29P7/I/ooEf9LC5xwBSCIs=
+		tMvPBEolqPQOmxqQVINnDiRsHqg=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -54,11 +54,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		a+KDbSxQZRu7T0I1AzSPDXVOxxM=
+		mWgLYCTr9QynJoSVWAkkv1m9qQA=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		toyto29P7/I/ooEf9LC5xwBSCIs=
+		tMvPBEolqPQOmxqQVINnDiRsHqg=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wcN0yb3nuDdwcAMA8Z329uB8wrg=
+		deHlZ4WaADBAc0f3w7/QqBY6LQA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -136,7 +136,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1P0U8zje0FLwLAVxqNmDRevSxyBRvu+KObPs61+/4eo=
+			eOqR/fiO8Adb4xO+IcRASeW8HtfmcNJc4RbQOh/baUg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -164,14 +164,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q8pmRrPO7ZLP5xqc9Hndu8cHeIIxC7qnbvDHJRxbVuQ=
+			yIRVDTVNs7Xdl8RsxuMqSu03DInKNE2w58zaGpAM5AI=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1P0U8zje0FLwLAVxqNmDRevSxyBRvu+KObPs61+/4eo=
+			eOqR/fiO8Adb4xO+IcRASeW8HtfmcNJc4RbQOh/baUg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oGsSFpI2S30mM0/jj2xN01yQ6mP/XO9vOk88z+H8jjQ=
+			tQkV/xBkgw8B5OjwPSiDyQ5UrH9mSQiCUutio/7jgMY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -803,14 +803,21 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 569,
+      "offset": 553,
+      "length": 17,
+      "value": "\"SingularityUser\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
       "length": 29,
       "value": "\"https:\/\/app.s9y-sandbox.gg\/\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 625,
+      "offset": 680,
       "length": 21,
       "value": "\"https:\/\/app.s9y.gg\/\""
     },
@@ -901,7 +908,7 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 616,
+      "offset": 880,
       "length": 3,
       "value": "400"
     }
