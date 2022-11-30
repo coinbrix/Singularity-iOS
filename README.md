@@ -1,6 +1,17 @@
 # Singularity-iOS
 You  can integrate singularity sdk to easy implement login flow and wallet integration
 
+##Integration
+
+######Pod
+Add below line in your podflie
+```ruby
+pod "Singularity-iOS"
+```
+######SPM
+you can add on SPM using below link
+######https://github.com/coinbrix/Singularity-iOS
+
 ## SingularityListener
 
 Implement this protocol to get callbacks
