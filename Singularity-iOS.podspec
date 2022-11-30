@@ -1,17 +1,18 @@
-{
-  "name"    : "Singularity-iOS",
-  "version" : "1.1.1",
-  "license" :"MIT",
-  "homepage": "https://www.s9y.gg/",
-  "author"  : { "Neobrix": "91garg.shubham@gmail.com"  },
-  "summary" : "The Singularity SDK provides basic classes and method used across other framewroks",
-  "description": "The Singularity SDK provides basic classes and method used across other framewroks. It used for manage entity and wallets",
-  "source"  : {
-  "git": "https://github.com/coinbrix/Singularity-iOS.git",
-  "tag": "#{s.version}"
-},
-  "platforms" : {
-    "ios": "11.0"
-  },
-  "vendored_frameworks": "SingularityKit.xcframework"
-}
+Pod::Spec.new do |s|
+  s.name                = "Singularity-iOS"
+  s.version             = "1.1.0"
+  s.license             = "MIT"
+  s.homepage            = "https://www.s9y.gg/"
+  s.author              = { "Neobrix" => "91garg.shubham@gmail.com"  }
+
+  s.summary             = "The Singularity SDK provides basic classes and method used across other framewroks"
+  s.description         = "The Singularity SDK provides basic classes and method used across other framewroks. It used for manage entity and wallets"
+
+  s.source              = { :git => "https://github.com/coinbrix/Singularity-iOS.git",
+                            :tag => "#{s.version}"
+                          }
+  
+  s.ios.deployment_target = "13.0"
+  s.vendored_frameworks = 'SingularityKit.xcframework'
+
+end
