@@ -1,0 +1,16 @@
+PODS:
+  - Singularity-iOS (1.0.0)
+
+DEPENDENCIES:
+  - Singularity-iOS
+
+SPEC REPOS:
+  trunk:
+    - Singularity-iOS
+
+SPEC CHECKSUMS:
+  Singularity-iOS: 493b501b3ad46e989122bf20f121f47adc45da2f
+
+PODFILE CHECKSUM: 01a47e7f132ed5cc461ba6846659f1e50f24736d
+
+COCOAPODS: 1.11.3

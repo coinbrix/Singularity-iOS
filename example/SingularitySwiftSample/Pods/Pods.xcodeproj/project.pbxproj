@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2383C63D35B4F9A042A05A1C98CA2440 /* Singularity-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9D9459AA52D688665B30CAB93B4FE66C /* Build configuration list for PBXAggregateTarget "Singularity-iOS" */;
+			buildPhases = (
+				005C3607726E0DD150859BB75F1A66BD /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = "Singularity-iOS";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3346E3A3398652605191FE90575E3822 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C293AA140CD6AB75B3D37E6ADC7CF871 /* Pods-SingularitySwiftSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 439EB6736A73C1C78869B6E84FD60D46 /* Pods-SingularitySwiftSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E2A8E409896316C9E9B4A463D9BB1D /* Pods-SingularitySwiftSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F12FE18422910555F3D6674F9948B56 /* Pods-SingularitySwiftSample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		903262886E45AF1F4BD349321342967F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2383C63D35B4F9A042A05A1C98CA2440;
+			remoteInfo = "Singularity-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B825B8B432468751BA35E832B459426 /* SingularityKit.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SingularityKit.xcframework; sourceTree = "<group>"; };
+		2A6416EDECC62D1294F3F55C10D97AF9 /* Pods-SingularitySwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingularitySwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
+		3AF7AF057EA309D1DA322835ACEC3C8E /* Singularity-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Singularity-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		3EE2392ABE3A4FEE077C4961B9257D05 /* Pods-SingularitySwiftSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SingularitySwiftSample-frameworks.sh"; sourceTree = "<group>"; };
+		439EB6736A73C1C78869B6E84FD60D46 /* Pods-SingularitySwiftSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SingularitySwiftSample-umbrella.h"; sourceTree = "<group>"; };
+		51350FAE8E07B0044560E825DCFD2CF0 /* Pods-SingularitySwiftSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingularitySwiftSample-Info.plist"; sourceTree = "<group>"; };
+		58434F6D44E7054FFED5A8B266F570C2 /* Pods-SingularitySwiftSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SingularitySwiftSample"; path = Pods_SingularitySwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F12FE18422910555F3D6674F9948B56 /* Pods-SingularitySwiftSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SingularitySwiftSample-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A59E4724905A4499955F1525916C6B4F /* Pods-SingularitySwiftSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SingularitySwiftSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		ADD988DAA289E3CAD6B98DE1587D243C /* Pods-SingularitySwiftSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SingularitySwiftSample.modulemap"; sourceTree = "<group>"; };
+		B531043A92D20FC603B48928387CA1F6 /* Singularity-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Singularity-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D33B21D4E926F6844BAA98594F6B2E07 /* Pods-SingularitySwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SingularitySwiftSample.release.xcconfig"; sourceTree = "<group>"; };
+		E75B4AD795EB43B3514C50DAEFFBAA32 /* Singularity-iOS-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Singularity-iOS-xcframeworks.sh"; sourceTree = "<group>"; };
+		F717091DD815E1DE056AD11F672BC7F9 /* Pods-SingularitySwiftSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SingularitySwiftSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87490929E6DF450DDE670E959BFA2563 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3346E3A3398652605191FE90575E3822 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C58B74F2B090B471DCD1F65F4E1FA41 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E75B4AD795EB43B3514C50DAEFFBAA32 /* Singularity-iOS-xcframeworks.sh */,
+				B531043A92D20FC603B48928387CA1F6 /* Singularity-iOS.debug.xcconfig */,
+				3AF7AF057EA309D1DA322835ACEC3C8E /* Singularity-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Singularity-iOS";
+			sourceTree = "<group>";
+		};
+		2EF4797FA62DFE137322BBF4953F115F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B825B8B432468751BA35E832B459426 /* SingularityKit.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		420971B62FF43F0528E24C0E2F1C3697 /* Singularity-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2EF4797FA62DFE137322BBF4953F115F /* Frameworks */,
+				0C58B74F2B090B471DCD1F65F4E1FA41 /* Support Files */,
+			);
+			name = "Singularity-iOS";
+			path = "Singularity-iOS";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		960FA5AF338ED360E3E1B9C7439E2AA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				420971B62FF43F0528E24C0E2F1C3697 /* Singularity-iOS */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A87121302FCF71B6021667AD49624847 /* Pods-SingularitySwiftSample */ = {
+			isa = PBXGroup;
+			children = (
+				ADD988DAA289E3CAD6B98DE1587D243C /* Pods-SingularitySwiftSample.modulemap */,
+				F717091DD815E1DE056AD11F672BC7F9 /* Pods-SingularitySwiftSample-acknowledgements.markdown */,
+				A59E4724905A4499955F1525916C6B4F /* Pods-SingularitySwiftSample-acknowledgements.plist */,
+				5F12FE18422910555F3D6674F9948B56 /* Pods-SingularitySwiftSample-dummy.m */,
+				3EE2392ABE3A4FEE077C4961B9257D05 /* Pods-SingularitySwiftSample-frameworks.sh */,
+				51350FAE8E07B0044560E825DCFD2CF0 /* Pods-SingularitySwiftSample-Info.plist */,
+				439EB6736A73C1C78869B6E84FD60D46 /* Pods-SingularitySwiftSample-umbrella.h */,
+				2A6416EDECC62D1294F3F55C10D97AF9 /* Pods-SingularitySwiftSample.debug.xcconfig */,
+				D33B21D4E926F6844BAA98594F6B2E07 /* Pods-SingularitySwiftSample.release.xcconfig */,
+			);
+			name = "Pods-SingularitySwiftSample";
+			path = "Target Support Files/Pods-SingularitySwiftSample";
+			sourceTree = "<group>";
+		};
+		CDDD12A3739F8F45C2302F2464CC299E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58434F6D44E7054FFED5A8B266F570C2 /* Pods-SingularitySwiftSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				960FA5AF338ED360E3E1B9C7439E2AA5 /* Pods */,
+				CDDD12A3739F8F45C2302F2464CC299E /* Products */,
+				DA40E4379645B4C9A8CF1E3C75AFCC0E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA40E4379645B4C9A8CF1E3C75AFCC0E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A87121302FCF71B6021667AD49624847 /* Pods-SingularitySwiftSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		516B2B9137B3D48082EFFEE02F0C097C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C293AA140CD6AB75B3D37E6ADC7CF871 /* Pods-SingularitySwiftSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17B43ECA9A269334DF8FAB9A620AE1BF /* Pods-SingularitySwiftSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99C0EC2B106B066B4654672B80DF2208 /* Build configuration list for PBXNativeTarget "Pods-SingularitySwiftSample" */;
+			buildPhases = (
+				516B2B9137B3D48082EFFEE02F0C097C /* Headers */,
+				D4496DD548818077953A0F70E3F7B6AB /* Sources */,
+				87490929E6DF450DDE670E959BFA2563 /* Frameworks */,
+				8159D7637CBBD07CD2FEF280CF5D81D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F289205B83B6033A6A6AD7239F280B2 /* PBXTargetDependency */,
+			);
+			name = "Pods-SingularitySwiftSample";
+			productName = Pods_SingularitySwiftSample;
+			productReference = 58434F6D44E7054FFED5A8B266F570C2 /* Pods-SingularitySwiftSample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CDDD12A3739F8F45C2302F2464CC299E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B43ECA9A269334DF8FAB9A620AE1BF /* Pods-SingularitySwiftSample */,
+				2383C63D35B4F9A042A05A1C98CA2440 /* Singularity-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8159D7637CBBD07CD2FEF280CF5D81D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		005C3607726E0DD150859BB75F1A66BD /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Singularity-iOS/Singularity-iOS-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Singularity-iOS/Singularity-iOS-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Singularity-iOS/Singularity-iOS-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4496DD548818077953A0F70E3F7B6AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E2A8E409896316C9E9B4A463D9BB1D /* Pods-SingularitySwiftSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F289205B83B6033A6A6AD7239F280B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Singularity-iOS";
+			target = 2383C63D35B4F9A042A05A1C98CA2440 /* Singularity-iOS */;
+			targetProxy = 903262886E45AF1F4BD349321342967F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		4D33DFFF09BD32E6E7A4F49AE28327F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B531043A92D20FC603B48928387CA1F6 /* Singularity-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7D0DF8655CC0C74C86DE0000D16D3A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D33B21D4E926F6844BAA98594F6B2E07 /* Pods-SingularitySwiftSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingularitySwiftSample/Pods-SingularitySwiftSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingularitySwiftSample/Pods-SingularitySwiftSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B24903BF83225E9CF118925A44E07C32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AF7AF057EA309D1DA322835ACEC3C8E /* Singularity-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFDA9CF759DDE873302BB5F110473884 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A6416EDECC62D1294F3F55C10D97AF9 /* Pods-SingularitySwiftSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SingularitySwiftSample/Pods-SingularitySwiftSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SingularitySwiftSample/Pods-SingularitySwiftSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99C0EC2B106B066B4654672B80DF2208 /* Build configuration list for PBXNativeTarget "Pods-SingularitySwiftSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDA9CF759DDE873302BB5F110473884 /* Debug */,
+				A7D0DF8655CC0C74C86DE0000D16D3A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D9459AA52D688665B30CAB93B4FE66C /* Build configuration list for PBXAggregateTarget "Singularity-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D33DFFF09BD32E6E7A4F49AE28327F4 /* Debug */,
+				B24903BF83225E9CF118925A44E07C32 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

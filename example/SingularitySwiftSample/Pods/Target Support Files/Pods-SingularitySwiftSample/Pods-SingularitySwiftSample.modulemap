@@ -1,0 +1,6 @@
+framework module Pods_SingularitySwiftSample {
+  umbrella header "Pods-SingularitySwiftSample-umbrella.h"
+
+  export *
+  module * { export * }
+}
