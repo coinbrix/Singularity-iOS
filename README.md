@@ -24,10 +24,10 @@ You also get user detail anytime from shared preference using **SingularityUser*
    
   }
 ```
-To get user detail from shared preference
+To get user detail from UserDefaults
 ```swift
-final prefs = await SharedPreferences.getInstance();
-final String? user = prefs.getString('SingularityUser');
+let prefs = UserDefaults.standard
+let user = prefs.object(forKey: "SingularityUser") 
 ```
 
 - onSingularityClose
