@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   s.version             = "1.1.0"
   s.license             = "MIT"
   s.homepage            = "https://www.s9y.gg/"
-  s.author              = { "Neobrix" => "91garg.shubham@gmail.com"  }
+  s.author              = { "Neobrix" => "devsupport@s9y.gg"  }
 
   s.summary             = "The Singularity SDK provides basic classes and method used across other framewroks"
   s.description         = "The Singularity SDK provides basic classes and method used across other framewroks. It used for manage entity and wallets"
