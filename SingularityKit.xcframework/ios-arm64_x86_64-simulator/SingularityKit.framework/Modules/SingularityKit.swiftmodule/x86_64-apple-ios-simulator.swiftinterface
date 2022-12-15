@@ -11,6 +11,7 @@ import _StringProcessing
 @_hasMissingDesignatedInitializers public class SingularitySDKInitializer {
   public static func startLogin(on parentVC: UIKit.UIViewController, with params: [Swift.String : Any], listener: SingularityKit.SingularityListener)
   public static func startLogin(on parentVC: UIKit.UIViewController, with params: SingularityKit.SingularityParams?, listener: SingularityKit.SingularityListener)
+  public static func openLoginDrawer()
   @objc deinit
 }
 public protocol SingularityListener {

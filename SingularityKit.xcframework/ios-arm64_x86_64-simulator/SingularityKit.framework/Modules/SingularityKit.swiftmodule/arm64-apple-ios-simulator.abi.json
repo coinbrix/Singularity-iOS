@@ -153,6 +153,28 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openLoginDrawer",
+            "printedName": "openLoginDrawer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SingularityKit0A14SDKInitializerC15openLoginDraweryyFZ",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC15openLoginDraweryyFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -746,8 +768,15 @@
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/SingularityLoginVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/SingularityLoginVC.swift",
       "kind": "StringLiteral",
-      "offset": 386,
+      "offset": 416,
       "length": 30,
       "value": "\"Version\/8.0.2 Safari\/600.2.5\""
     },
@@ -790,34 +819,34 @@
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
       "offset": 460,
-      "length": 8,
-      "value": "\"config\""
+      "length": 19,
+      "value": "\"singularityConfig\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 502,
+      "offset": 513,
       "length": 13,
       "value": "\"environment\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 553,
+      "offset": 564,
       "length": 17,
       "value": "\"SingularityUser\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 624,
+      "offset": 635,
       "length": 29,
       "value": "\"https:\/\/app.s9y-sandbox.gg\/\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 691,
       "length": 21,
       "value": "\"https:\/\/app.s9y.gg\/\""
     },
