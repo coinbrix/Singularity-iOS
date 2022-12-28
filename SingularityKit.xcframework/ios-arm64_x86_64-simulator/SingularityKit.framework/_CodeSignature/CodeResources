@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/SingularityKit-Swift.h</key>
 		<data>
-		4AIevNP265GJTi6IjAHLEMGRxiI=
+		D0eQBrKEf7egRB8jP3KwK3DLUw4=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hyq+tEGIkIeP/PP8WrQM6KEJ41Q=
+		toWP8aUAEwAJSuY1aAQi8wjyO5Y=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bvVqaLuiTIDF38Ml555raskjswQ=
+		IZb/4qU7V2UegH7Fop9shEAca48=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bvVqaLuiTIDF38Ml555raskjswQ=
+		IZb/4qU7V2UegH7Fop9shEAca48=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		o7cNacwzgrYLYtJK2eaOd817W10=
+		/5YUJrnWk05LRB9d1RMZ0Lv28oE=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Hyq+tEGIkIeP/PP8WrQM6KEJ41Q=
+		toWP8aUAEwAJSuY1aAQi8wjyO5Y=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		u3zlgKxXTArHP0l1M70suwWakZg=
+		QkEt1iTeiEAblm/BXpEUHZW7Elo=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		u3zlgKxXTArHP0l1M70suwWakZg=
+		QkEt1iTeiEAblm/BXpEUHZW7Elo=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		SYcGV+9JcUrylnx5gV3d8L2oPeo=
+		cQ5BiKNwOgtAhPzH+Fy44Jo7WPQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K6h84t8FnyuWugemGhHiZe7dJLm/8iGVsSK8ZjV/Aw8=
+			pTi2xospJN7/FnYy3yqKPzNh5uJG/eeaIPH0MsS8rkM=
 			</data>
 		</dict>
 		<key>Login.storyboardc/Info.plist</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MB8+q2dfqgsrd/Usqn7xsVa9gbLNPs2XMKoMTVUGJU=
+			Xi7QJ02nT6VLpjTmP5Fbzh7r81lOK8vfCne2qk3n/io=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TP1rJ5Ax0oOYp66zYVn7/RRACG9neYp0fEspRkQaDrc=
+			n6YSx3qCc5awfJ0v13ubmR0qhgXHPwAoa2rHZB1sDWw=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TP1rJ5Ax0oOYp66zYVn7/RRACG9neYp0fEspRkQaDrc=
+			n6YSx3qCc5awfJ0v13ubmR0qhgXHPwAoa2rHZB1sDWw=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E3xVAUt9zC3zRp16ZoB2eBuIHwf+AMOTfe773nEg7iU=
+			o96wcLNUE8VmDoU4c19B+CTuMfBLdu4M9EAjGOl7JHE=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2MB8+q2dfqgsrd/Usqn7xsVa9gbLNPs2XMKoMTVUGJU=
+			Xi7QJ02nT6VLpjTmP5Fbzh7r81lOK8vfCne2qk3n/io=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9ntGaIkwJOK5xY83dls2kO/BfcMt0sYBZKHxMWZplg=
+			3u55bxRu/7BtfTQLvUprb2Ccp45mvAPSik4zl7OEVQE=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +192,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/9ntGaIkwJOK5xY83dls2kO/BfcMt0sYBZKHxMWZplg=
+			3u55bxRu/7BtfTQLvUprb2Ccp45mvAPSik4zl7OEVQE=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IEeUK5BlU+ZpUmFTWtLqeB0dOY6knRpG0HaFo+q6NOE=
+			QWPoLsbxpI+zfoe8qHUFRx1xfIDmKluRdiadBgFKql0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

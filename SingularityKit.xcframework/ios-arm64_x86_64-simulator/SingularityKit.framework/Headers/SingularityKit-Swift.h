@@ -230,6 +230,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -250,6 +252,39 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+typedef SWIFT_ENUM(NSInteger, SingularityEnvironMent, open) {
+  SingularityEnvironMentTest = 0,
+  SingularityEnvironMentProduction = 1,
+};
+
+@class NSString;
+
+SWIFT_PROTOCOL("_TtP14SingularityKit19SingularityListener_")
+@protocol SingularityListener
+- (void)onGetSingularityUserInfoWithUser:(NSDictionary<NSString *, id> * _Nonnull)user;
+- (void)onSingularityClose;
+- (void)onSingularityLogout;
+- (void)onSingularityErrorWithMessage:(NSString * _Nonnull)message code:(NSInteger)code;
+@end
+
+
+SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
+@interface SingularityParams : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIViewController;
+
+SWIFT_CLASS("_TtC14SingularityKit25SingularitySDKInitializer")
+@interface SingularitySDKInitializer : NSObject
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC with:(NSDictionary<NSString *, id> * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nullable)params listener:(id <SingularityListener> _Nonnull)listener;
++ (NSDictionary<NSString *, id> * _Nonnull)getUserInfo SWIFT_WARN_UNUSED_RESULT;
++ (void)openLoginDrawer;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 #endif
@@ -492,6 +527,8 @@ using UInt = size_t;
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 #endif
 
 #endif
@@ -512,6 +549,39 @@ using UInt = size_t;
 #endif
 
 #if defined(__OBJC__)
+
+typedef SWIFT_ENUM(NSInteger, SingularityEnvironMent, open) {
+  SingularityEnvironMentTest = 0,
+  SingularityEnvironMentProduction = 1,
+};
+
+@class NSString;
+
+SWIFT_PROTOCOL("_TtP14SingularityKit19SingularityListener_")
+@protocol SingularityListener
+- (void)onGetSingularityUserInfoWithUser:(NSDictionary<NSString *, id> * _Nonnull)user;
+- (void)onSingularityClose;
+- (void)onSingularityLogout;
+- (void)onSingularityErrorWithMessage:(NSString * _Nonnull)message code:(NSInteger)code;
+@end
+
+
+SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
+@interface SingularityParams : NSObject
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UIViewController;
+
+SWIFT_CLASS("_TtC14SingularityKit25SingularitySDKInitializer")
+@interface SingularitySDKInitializer : NSObject
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC with:(NSDictionary<NSString *, id> * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nullable)params listener:(id <SingularityListener> _Nonnull)listener;
++ (NSDictionary<NSString *, id> * _Nonnull)getUserInfo SWIFT_WARN_UNUSED_RESULT;
++ (void)openLoginDrawer;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
 #endif
