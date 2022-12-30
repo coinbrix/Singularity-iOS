@@ -26,6 +26,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -92,24 +102,26 @@
                 "kind": "TypeNominal",
                 "name": "SingularityListener",
                 "printedName": "SingularityKit.SingularityListener",
-                "usr": "s:14SingularityKit0A8ListenerP"
+                "usr": "c:@M@SingularityKit@objc(pl)SingularityListener"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_SDySSypGAA0A8Listener_ptFZ",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:with:listener:",
             "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_SDySSypGAA0A8Listener_ptFZ",
             "moduleName": "SingularityKit",
             "static": true,
+            "objc_name": "startLoginOn:with:listener:",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
             "name": "startLogin",
-            "printedName": "startLogin(on:with:listener:)",
+            "printedName": "startLogin(on:params:listener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -131,7 +143,7 @@
                     "kind": "TypeNominal",
                     "name": "SingularityParams",
                     "printedName": "SingularityKit.SingularityParams",
-                    "usr": "s:14SingularityKit0A6ParamsC"
+                    "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
                   }
                 ],
                 "usr": "s:Sq"
@@ -140,17 +152,56 @@
                 "kind": "TypeNominal",
                 "name": "SingularityListener",
                 "printedName": "SingularityKit.SingularityListener",
-                "usr": "s:14SingularityKit0A8ListenerP"
+                "usr": "c:@M@SingularityKit@objc(pl)SingularityListener"
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
-            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:params:listener:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on6params8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "objc_name": "startLoginOn:params:listener:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserInfo",
+            "printedName": "getUserInfo()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)getUserInfo",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC11getUserInfoSDySSypGyFZ",
             "moduleName": "SingularityKit",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -166,25 +217,108 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A14SDKInitializerC15openLoginDraweryyFZ",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)openLoginDrawer",
             "mangledName": "$s14SingularityKit0A14SDKInitializerC15openLoginDraweryyFZ",
             "moduleName": "SingularityKit",
             "static": true,
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SingularitySDKInitializer",
+                "printedName": "SingularityKit.SingularitySDKInitializer",
+                "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(im)init",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerCACycfc",
+            "moduleName": "SingularityKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:14SingularityKit0A14SDKInitializerC",
+        "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer",
         "mangledName": "$s14SingularityKit0A14SDKInitializerC",
         "moduleName": "SingularityKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -249,12 +383,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A8ListenerP05onGetA8UserInfo4userySDySSypG_tF",
+            "usr": "c:@M@SingularityKit@objc(pl)SingularityListener(im)onGetSingularityUserInfoWithUser:",
             "mangledName": "$s14SingularityKit0A8ListenerP05onGetA8UserInfo4userySDySSypG_tF",
             "moduleName": "SingularityKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
             "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
             "protocolReq": true,
+            "objc_name": "onGetSingularityUserInfoWithUser:",
+            "declAttributes": [
+              "ObjC"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -270,12 +408,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A8ListenerP02onA5CloseyyF",
+            "usr": "c:@M@SingularityKit@objc(pl)SingularityListener(im)onSingularityClose",
             "mangledName": "$s14SingularityKit0A8ListenerP02onA5CloseyyF",
             "moduleName": "SingularityKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
             "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
             "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -291,12 +432,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A8ListenerP02onA6LogoutyyF",
+            "usr": "c:@M@SingularityKit@objc(pl)SingularityListener(im)onSingularityLogout",
             "mangledName": "$s14SingularityKit0A8ListenerP02onA6LogoutyyF",
             "moduleName": "SingularityKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
             "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
             "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           },
@@ -324,22 +468,29 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:14SingularityKit0A8ListenerP02onA5Error7message4codeySS_SitF",
+            "usr": "c:@M@SingularityKit@objc(pl)SingularityListener(im)onSingularityErrorWithMessage:code:",
             "mangledName": "$s14SingularityKit0A8ListenerP02onA5Error7message4codeySS_SitF",
             "moduleName": "SingularityKit",
             "genericSig": "<τ_0_0 where τ_0_0 : SingularityKit.SingularityListener>",
             "sugared_genericSig": "<Self where Self : SingularityKit.SingularityListener>",
             "protocolReq": true,
+            "objc_name": "onSingularityErrorWithMessage:code:",
+            "declAttributes": [
+              "ObjC"
+            ],
             "reqNewWitnessTableEntry": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Protocol",
-        "usr": "s:14SingularityKit0A8ListenerP",
+        "usr": "c:@M@SingularityKit@objc(pl)SingularityListener",
         "mangledName": "$s14SingularityKit0A8ListenerP",
         "moduleName": "SingularityKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ]
       },
       {
@@ -447,7 +598,7 @@
                 "kind": "TypeNominal",
                 "name": "SingularityParams",
                 "printedName": "SingularityKit.SingularityParams",
-                "usr": "s:14SingularityKit0A6ParamsC"
+                "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
               },
               {
                 "kind": "TypeNominal",
@@ -459,7 +610,7 @@
                 "kind": "TypeNominal",
                 "name": "SingularityEnvironMent",
                 "printedName": "SingularityKit.SingularityEnvironMent",
-                "usr": "s:14SingularityKit0A11EnvironMentO"
+                "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
               },
               {
                 "kind": "TypeNominal",
@@ -515,14 +666,96 @@
               "AccessControl"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityParams",
+                "printedName": "SingularityKit.SingularityParams",
+                "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularityParams(im)init",
+            "mangledName": "$s14SingularityKit0A6ParamsCACycfc",
+            "moduleName": "SingularityKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:14SingularityKit0A6ParamsC",
+        "usr": "c:@M@SingularityKit@objc(cs)SingularityParams",
         "mangledName": "$s14SingularityKit0A6ParamsC",
         "moduleName": "SingularityKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
         ]
       },
       {
@@ -544,7 +777,7 @@
                     "kind": "TypeNominal",
                     "name": "SingularityEnvironMent",
                     "printedName": "SingularityKit.SingularityEnvironMent",
-                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                    "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
                   },
                   {
                     "kind": "TypeNominal",
@@ -555,7 +788,7 @@
                         "kind": "TypeNominal",
                         "name": "SingularityEnvironMent",
                         "printedName": "SingularityKit.SingularityEnvironMent",
-                        "usr": "s:14SingularityKit0A11EnvironMentO"
+                        "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
                       }
                     ]
                   }
@@ -563,9 +796,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14SingularityKit0A11EnvironMentO4testyA2CmF",
+            "usr": "c:@M@SingularityKit@E@SingularityEnvironMent@SingularityEnvironMentTest",
             "mangledName": "$s14SingularityKit0A11EnvironMentO4testyA2CmF",
-            "moduleName": "SingularityKit"
+            "moduleName": "SingularityKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
           },
           {
             "kind": "Var",
@@ -581,7 +818,7 @@
                     "kind": "TypeNominal",
                     "name": "SingularityEnvironMent",
                     "printedName": "SingularityKit.SingularityEnvironMent",
-                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                    "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
                   },
                   {
                     "kind": "TypeNominal",
@@ -592,7 +829,7 @@
                         "kind": "TypeNominal",
                         "name": "SingularityEnvironMent",
                         "printedName": "SingularityKit.SingularityEnvironMent",
-                        "usr": "s:14SingularityKit0A11EnvironMentO"
+                        "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
                       }
                     ]
                   }
@@ -600,9 +837,13 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:14SingularityKit0A11EnvironMentO10productionyA2CmF",
+            "usr": "c:@M@SingularityKit@E@SingularityEnvironMent@SingularityEnvironMentProduction",
             "mangledName": "$s14SingularityKit0A11EnvironMentO10productionyA2CmF",
-            "moduleName": "SingularityKit"
+            "moduleName": "SingularityKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Constructor",
@@ -618,7 +859,7 @@
                     "kind": "TypeNominal",
                     "name": "SingularityEnvironMent",
                     "printedName": "SingularityKit.SingularityEnvironMent",
-                    "usr": "s:14SingularityKit0A11EnvironMentO"
+                    "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
                   }
                 ],
                 "usr": "s:Sq"
@@ -678,11 +919,12 @@
           }
         ],
         "declKind": "Enum",
-        "usr": "s:14SingularityKit0A11EnvironMentO",
+        "usr": "c:@M@SingularityKit@E@SingularityEnvironMent",
         "mangledName": "$s14SingularityKit0A11EnvironMentO",
         "moduleName": "SingularityKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
         "enumRawTypeName": "Int",
         "conformances": [
@@ -867,70 +1109,63 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 565,
+      "offset": 581,
       "length": 6,
       "value": "0.6784"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 580,
+      "offset": 596,
       "length": 6,
       "value": "0.5412"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 594,
+      "offset": 610,
       "length": 6,
       "value": "0.7333"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 609,
+      "offset": 625,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "StringLiteral",
+      "offset": 149,
+      "length": 17,
+      "value": "\"SingularityKit.SingularityParams\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 1032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1034,
+      "offset": 1056,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 1032,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1034,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1010,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1034,
+      "offset": 1056,
       "length": 1,
       "value": "1"
     },
