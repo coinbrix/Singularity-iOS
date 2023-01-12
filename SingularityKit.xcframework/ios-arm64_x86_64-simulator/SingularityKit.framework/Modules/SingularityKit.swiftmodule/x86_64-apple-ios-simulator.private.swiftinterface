@@ -10,7 +10,7 @@ import _Concurrency
 import _StringProcessing
 @_inheritsConvenienceInitializers @objc public class SingularitySDKInitializer : ObjectiveC.NSObject {
   @objc public static func startLogin(on parentVC: UIKit.UIViewController, with params: [Swift.String : Any], listener: SingularityKit.SingularityListener)
-  @objc public static func startLogin(on parentVC: UIKit.UIViewController, params: SingularityKit.SingularityParams?, listener: SingularityKit.SingularityListener)
+  @objc public static func startLogin(on parentVC: UIKit.UIViewController, params: SingularityKit.SingularityParams, listener: SingularityKit.SingularityListener)
   @objc public static func getUserInfo() -> [Swift.String : Any]
   @objc public static func openLoginDrawer()
   @objc override dynamic public init()
@@ -22,14 +22,15 @@ import _StringProcessing
   @objc func onSingularityLogout()
   @objc func onSingularityError(message: Swift.String, code: Swift.Int)
 }
-@objc public class SingularityParams : ObjectiveC.NSObject {
-  public init(merchantId: Swift.String, environment: SingularityKit.SingularityEnvironMent, merchantName: Swift.String? = nil, merchantLogo: UIKit.UIImage? = nil, primaryColor: UIKit.UIColor? = UIColor(red: 0.6784, green: 0.5412, blue: 0.7333, alpha: 1.0))
+@objc public class SingularityParams : ObjectiveC.NSObject, Foundation.NSCopying {
+  @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  @objc public init(merchantId: Swift.String, environment: SingularityKit.SingularityEnvironMent, merchantName: Swift.String? = nil, merchantLogo: UIKit.UIImage? = nil, primaryColor: UIKit.UIColor? = UIColor(red: 0.6784, green: 0.5412, blue: 0.7333, alpha: 1.0))
   @objc deinit
 }
 @objc public enum SingularityEnvironMent : Swift.Int {
   case test = 0
   case production = 1
-  case ual = 2
+  case qal = 2
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

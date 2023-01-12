@@ -126,17 +126,9 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SingularityKit.SingularityParams?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SingularityParams",
-                    "printedName": "SingularityKit.SingularityParams",
-                    "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
-                  }
-                ],
-                "usr": "s:Sq"
+                "name": "SingularityParams",
+                "printedName": "SingularityKit.SingularityParams",
+                "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
               },
               {
                 "kind": "TypeNominal",
@@ -147,7 +139,7 @@
             ],
             "declKind": "Func",
             "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:params:listener:",
-            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on6params8listenerySo16UIViewControllerC_AA0A6ParamsCSgAA0A8Listener_ptFZ",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on6params8listenerySo16UIViewControllerC_AA0A6ParamsCAA0A8Listener_ptFZ",
             "moduleName": "SingularityKit",
             "static": true,
             "objc_name": "startLoginOn:params:listener:",
@@ -580,6 +572,43 @@
         "printedName": "SingularityParams",
         "children": [
           {
+            "kind": "Function",
+            "name": "copy",
+            "printedName": "copy(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ObjectiveC.NSZone?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSZone",
+                    "printedName": "ObjectiveC.NSZone",
+                    "usr": "s:10ObjectiveC6NSZoneV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularityParams(im)copyWithZone:",
+            "mangledName": "$s14SingularityKit0A6ParamsC4copy4withyp10ObjectiveC6NSZoneVSg_tF",
+            "moduleName": "SingularityKit",
+            "objc_name": "copyWithZone:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(merchantId:environment:merchantName:merchantLogo:primaryColor:)",
@@ -649,11 +678,13 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:14SingularityKit0A6ParamsC10merchantId11environment0D4Name0D4Logo12primaryColorACSS_AA0A11EnvironMentOSSSgSo7UIImageCSgSo7UIColorCSgtcfc",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularityParams(im)initWithMerchantId:environment:merchantName:merchantLogo:primaryColor:",
             "mangledName": "$s14SingularityKit0A6ParamsC10merchantId11environment0D4Name0D4Logo12primaryColorACSS_AA0A11EnvironMentOSSSgSo7UIImageCSgSo7UIColorCSgtcfc",
             "moduleName": "SingularityKit",
+            "objc_name": "initWithMerchantId:environment:merchantName:merchantLogo:primaryColor:",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "init_kind": "Designated"
           },
@@ -837,8 +868,8 @@
           },
           {
             "kind": "Var",
-            "name": "ual",
-            "printedName": "ual",
+            "name": "qal",
+            "printedName": "qal",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -868,8 +899,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "c:@M@SingularityKit@E@SingularityEnvironMent@SingularityEnvironMentUal",
-            "mangledName": "$s14SingularityKit0A11EnvironMentO3ualyA2CmF",
+            "usr": "c:@M@SingularityKit@E@SingularityEnvironMent@SingularityEnvironMentQal",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO3qalyA2CmF",
             "moduleName": "SingularityKit",
             "declAttributes": [
               "ObjC"
@@ -1128,7 +1159,7 @@
       "kind": "StringLiteral",
       "offset": 738,
       "length": 29,
-      "value": "\"https:\/\/ual.s9y-sandbox.gg\/\""
+      "value": "\"https:\/\/qal.s9y-sandbox.gg\/\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Storyboard.swift",
@@ -1147,28 +1178,28 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 581,
+      "offset": 880,
       "length": 6,
       "value": "0.6784"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 596,
+      "offset": 895,
       "length": 6,
       "value": "0.5412"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 610,
+      "offset": 909,
       "length": 6,
       "value": "0.7333"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "FloatLiteral",
-      "offset": 625,
+      "offset": 924,
       "length": 3,
       "value": "1.0"
     },
@@ -1182,42 +1213,42 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1331,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1056,
+      "offset": 1355,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1073,
+      "offset": 1372,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1032,
+      "offset": 1331,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1056,
+      "offset": 1355,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
-      "offset": 1073,
+      "offset": 1372,
       "length": 1,
       "value": "2"
     },

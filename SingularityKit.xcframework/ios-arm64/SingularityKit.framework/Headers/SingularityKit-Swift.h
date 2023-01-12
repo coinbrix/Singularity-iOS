@@ -256,7 +256,7 @@ using UInt = size_t;
 typedef SWIFT_ENUM(NSInteger, SingularityEnvironMent, open) {
   SingularityEnvironMentTest = 0,
   SingularityEnvironMentProduction = 1,
-  SingularityEnvironMentUal = 2,
+  SingularityEnvironMentQal = 2,
 };
 
 @class NSString;
@@ -269,9 +269,13 @@ SWIFT_PROTOCOL("_TtP14SingularityKit19SingularityListener_")
 - (void)onSingularityErrorWithMessage:(NSString * _Nonnull)message code:(NSInteger)code;
 @end
 
+@class UIImage;
+@class UIColor;
 
 SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
-@interface SingularityParams : NSObject
+@interface SingularityParams : NSObject <NSCopying>
+- (id _Nonnull)copyWithZone:(struct _NSZone * _Nullable)zone SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)initWithMerchantId:(NSString * _Nonnull)merchantId environment:(enum SingularityEnvironMent)environment merchantName:(NSString * _Nullable)merchantName merchantLogo:(UIImage * _Nullable)merchantLogo primaryColor:(UIColor * _Nullable)primaryColor OBJC_DESIGNATED_INITIALIZER;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
@@ -281,7 +285,7 @@ SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
 SWIFT_CLASS("_TtC14SingularityKit25SingularitySDKInitializer")
 @interface SingularitySDKInitializer : NSObject
 + (void)startLoginOn:(UIViewController * _Nonnull)parentVC with:(NSDictionary<NSString *, id> * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
-+ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nullable)params listener:(id <SingularityListener> _Nonnull)listener;
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
 + (NSDictionary<NSString *, id> * _Nonnull)getUserInfo SWIFT_WARN_UNUSED_RESULT;
 + (void)openLoginDrawer;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
