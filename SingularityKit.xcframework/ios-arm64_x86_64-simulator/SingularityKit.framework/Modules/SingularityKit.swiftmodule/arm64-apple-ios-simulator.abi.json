@@ -26,16 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "SingularityKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -846,6 +836,47 @@
             "fixedbinaryorder": 1
           },
           {
+            "kind": "Var",
+            "name": "ual",
+            "printedName": "ual",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SingularityKit.SingularityEnvironMent.Type) -> SingularityKit.SingularityEnvironMent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SingularityEnvironMent",
+                    "printedName": "SingularityKit.SingularityEnvironMent",
+                    "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SingularityKit.SingularityEnvironMent.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SingularityEnvironMent",
+                        "printedName": "SingularityKit.SingularityEnvironMent",
+                        "usr": "c:@M@SingularityKit@E@SingularityEnvironMent"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@SingularityKit@E@SingularityEnvironMent@SingularityEnvironMentUal",
+            "mangledName": "$s14SingularityKit0A11EnvironMentO3ualyA2CmF",
+            "moduleName": "SingularityKit",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -1093,6 +1124,13 @@
       "value": "\"https:\/\/app.s9y.gg\/\""
     },
     {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 738,
+      "length": 29,
+      "value": "\"https:\/\/ual.s9y-sandbox.gg\/\""
+    },
+    {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Storyboard.swift",
       "kind": "StringLiteral",
       "offset": 165,
@@ -1158,6 +1196,13 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
       "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
       "offset": 1032,
       "length": 1,
       "value": "0"
@@ -1168,6 +1213,13 @@
       "offset": 1056,
       "length": 1,
       "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Public\/SingularityParams.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1073,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",

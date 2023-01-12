@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SingularityKit-Swift.h</key>
 		<data>
-		D0eQBrKEf7egRB8jP3KwK3DLUw4=
+		pcOQOMcT0FZqrmdWUX2mlmtbrdM=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		0QYKi6NgEnY1TyW2J54DdUwcHEA=
+		pCW1fGxufah1xE2wvXIzDi7hlLQ=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		toWP8aUAEwAJSuY1aAQi8wjyO5Y=
+		DJjzuSNwPhqrumt7Ep1SJiEKn78=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		IZb/4qU7V2UegH7Fop9shEAca48=
+		N3t80WF4NsQpPMrg1lGPLo60i5g=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -50,19 +50,19 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		IZb/4qU7V2UegH7Fop9shEAca48=
+		N3t80WF4NsQpPMrg1lGPLo60i5g=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/5YUJrnWk05LRB9d1RMZ0Lv28oE=
+		dv0Zop6xoobTSnH/qojfWC7bw/w=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		toWP8aUAEwAJSuY1aAQi8wjyO5Y=
+		DJjzuSNwPhqrumt7Ep1SJiEKn78=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		QkEt1iTeiEAblm/BXpEUHZW7Elo=
+		DCTdl5AM4xjN0h7tFKfC44YOMrw=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		QkEt1iTeiEAblm/BXpEUHZW7Elo=
+		DCTdl5AM4xjN0h7tFKfC44YOMrw=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cQ5BiKNwOgtAhPzH+Fy44Jo7WPQ=
+		3cPLxoQH2HU3HPdkvIB/J0sv2qE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -94,7 +94,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pTi2xospJN7/FnYy3yqKPzNh5uJG/eeaIPH0MsS8rkM=
+			S1ud3FCj0XgVxgonCaiKI8ZmdAfEBkGZrF0oU/Ksjsk=
 			</data>
 		</dict>
 		<key>Login.storyboardc/Info.plist</key>
@@ -136,14 +136,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xi7QJ02nT6VLpjTmP5Fbzh7r81lOK8vfCne2qk3n/io=
+			+1go0AJjEC2z/+Vrb4L86MOg4j6663L2WjyAk3PEWq4=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6YSx3qCc5awfJ0v13ubmR0qhgXHPwAoa2rHZB1sDWw=
+			G+Z1SWq3PQ3qlFNY1/0Cy5ZcQd7oBySfG8ItgRoKof0=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -157,28 +157,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n6YSx3qCc5awfJ0v13ubmR0qhgXHPwAoa2rHZB1sDWw=
+			G+Z1SWq3PQ3qlFNY1/0Cy5ZcQd7oBySfG8ItgRoKof0=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			o96wcLNUE8VmDoU4c19B+CTuMfBLdu4M9EAjGOl7JHE=
+			injBOf58TMSVNBsMtZbwWF3Fw6PAQVULG4S2izxjVlg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xi7QJ02nT6VLpjTmP5Fbzh7r81lOK8vfCne2qk3n/io=
+			+1go0AJjEC2z/+Vrb4L86MOg4j6663L2WjyAk3PEWq4=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3u55bxRu/7BtfTQLvUprb2Ccp45mvAPSik4zl7OEVQE=
+			PqyKn9CHHqQ3CkTK/y8XLMiZa6Pl2oXeqPOPrZSFvUg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -192,14 +192,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3u55bxRu/7BtfTQLvUprb2Ccp45mvAPSik4zl7OEVQE=
+			PqyKn9CHHqQ3CkTK/y8XLMiZa6Pl2oXeqPOPrZSFvUg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QWPoLsbxpI+zfoe8qHUFRx1xfIDmKluRdiadBgFKql0=
+			jYg/DULrF6PmdrkfPnPcvvP4epeqKPvZGEG6Kr1O95w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

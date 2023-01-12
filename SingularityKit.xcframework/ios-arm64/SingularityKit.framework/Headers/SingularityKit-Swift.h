@@ -256,6 +256,7 @@ using UInt = size_t;
 typedef SWIFT_ENUM(NSInteger, SingularityEnvironMent, open) {
   SingularityEnvironMentTest = 0,
   SingularityEnvironMentProduction = 1,
+  SingularityEnvironMentUal = 2,
 };
 
 @class NSString;

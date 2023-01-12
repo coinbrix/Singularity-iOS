@@ -29,6 +29,7 @@ import _StringProcessing
 @objc public enum SingularityEnvironMent : Swift.Int {
   case test = 0
   case production = 1
+  case ual = 2
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
