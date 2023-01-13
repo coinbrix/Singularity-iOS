@@ -1,5 +1,5 @@
 PODS:
-  - Singularity-iOS (1.0.0)
+  - Singularity-iOS (1.4.0)
 
 DEPENDENCIES:
   - Singularity-iOS
@@ -9,7 +9,7 @@ SPEC REPOS:
     - Singularity-iOS
 
 SPEC CHECKSUMS:
-  Singularity-iOS: 493b501b3ad46e989122bf20f121f47adc45da2f
+  Singularity-iOS: b5b7671f88cd52957800032f90d4dd2bc9fe45ff
 
 PODFILE CHECKSUM: 01a47e7f132ed5cc461ba6846659f1e50f24736d
 

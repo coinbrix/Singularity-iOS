@@ -1,6 +1,17 @@
 # Singularity-iOS
 You  can integrate singularity sdk to easy implement login flow and wallet integration
 
+## Integration
+
+###### Pod
+Add below line in your podflie
+```ruby
+pod "Singularity-iOS"
+```
+###### SPM
+you can add on SPM using below link
+##### https://github.com/coinbrix/Singularity-iOS
+
 ## SingularityListener
 
 Implement this protocol to get callbacks
@@ -13,10 +24,10 @@ You also get user detail anytime from shared preference using **SingularityUser*
    
   }
 ```
-To get user detail from shared preference
+To get user detail from UserDefaults
 ```swift
-final prefs = await SharedPreferences.getInstance();
-final String? user = prefs.getString('SingularityUser');
+let prefs = UserDefaults.standard
+let user = prefs.object(forKey: "SingularityUser") 
 ```
 
 - onSingularityClose

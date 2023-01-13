@@ -20,7 +20,7 @@ class SingularityViewController: UIViewController {
     
     func setUPDefaultParams() {
         keyTF.text = "neobrix"
-        envTF.text = "0"
+        envTF.text = "2"
     }
 
     @IBAction func loginBtnAxn(_ sender: Any) {
@@ -28,9 +28,11 @@ class SingularityViewController: UIViewController {
         var env = SingularityEnvironMent.test
         if envTF.text == "1" {
             env = .production
+        } else if envTF.text == "2" {
+            env = .qal
         }
         let params = SingularityParams(merchantId: key, environment: env)
-        SingularitySDKInitializer.startLogin(on: self, with: params, listener: SingularityEventListner())
+        SingularitySDKInitializer.startLogin(on: self, params: params, listener: SingularityEventListner())
     }
 }
 
