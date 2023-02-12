@@ -281,13 +281,18 @@ SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
 @end
 
 @class UIViewController;
+@class UIScene;
+@class UIOpenURLContext;
 
 SWIFT_CLASS("_TtC14SingularityKit25SingularitySDKInitializer")
 @interface SingularitySDKInitializer : NSObject
-+ (void)startLoginOn:(UIViewController * _Nonnull)parentVC with:(NSDictionary<NSString *, id> * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
-+ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
++ (void)initializeSingularityWithParams:(NSDictionary<NSString *, id> * _Nonnull)params;
++ (void)initializeSingularityWith:(SingularityParams * _Nonnull)params;
++ (void)startLoginWithParentVC:(UIViewController * _Nonnull)parentVC listener:(id <SingularityListener> _Nonnull)listener;
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC listener:(id <SingularityListener> _Nonnull)listener;
 + (NSDictionary<NSString *, id> * _Nonnull)getUserInfo SWIFT_WARN_UNUSED_RESULT;
 + (void)openLoginDrawer;
++ (void)scene:(UIScene * _Nonnull)scene openURLContexts:(NSSet<UIOpenURLContext *> * _Nonnull)URLContexts;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -583,13 +588,18 @@ SWIFT_CLASS("_TtC14SingularityKit17SingularityParams")
 @end
 
 @class UIViewController;
+@class UIScene;
+@class UIOpenURLContext;
 
 SWIFT_CLASS("_TtC14SingularityKit25SingularitySDKInitializer")
 @interface SingularitySDKInitializer : NSObject
-+ (void)startLoginOn:(UIViewController * _Nonnull)parentVC with:(NSDictionary<NSString *, id> * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
-+ (void)startLoginOn:(UIViewController * _Nonnull)parentVC params:(SingularityParams * _Nonnull)params listener:(id <SingularityListener> _Nonnull)listener;
++ (void)initializeSingularityWithParams:(NSDictionary<NSString *, id> * _Nonnull)params;
++ (void)initializeSingularityWith:(SingularityParams * _Nonnull)params;
++ (void)startLoginWithParentVC:(UIViewController * _Nonnull)parentVC listener:(id <SingularityListener> _Nonnull)listener;
++ (void)startLoginOn:(UIViewController * _Nonnull)parentVC listener:(id <SingularityListener> _Nonnull)listener;
 + (NSDictionary<NSString *, id> * _Nonnull)getUserInfo SWIFT_WARN_UNUSED_RESULT;
 + (void)openLoginDrawer;
++ (void)scene:(UIScene * _Nonnull)scene openURLContexts:(NSSet<UIOpenURLContext *> * _Nonnull)URLContexts;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

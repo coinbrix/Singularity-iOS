@@ -10,11 +10,11 @@
 		</data>
 		<key>Headers/SingularityKit-Swift.h</key>
 		<data>
-		e11721Ef126nWEMZGkyKs4yDzeM=
+		fDcTP/XiXpguXLoahYWeGDRYkCw=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		bA3lGJEUJ1M4hXkgVIoqDucgzi4=
+		fxo9W0a9iBJJXZxM9yr7JYgfxa4=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hqgASrgEYFUhOmn1GQjuE7e0FbE=
+		PKFWKa+Ec96/KY591udAKfgyDWo=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		y1L1oa8DZkd9JTwK94LvEv0Zo1s=
+		mk0PcCCmlarLvTJBmgBDsW8S7vo=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		y1L1oa8DZkd9JTwK94LvEv0Zo1s=
+		mk0PcCCmlarLvTJBmgBDsW8S7vo=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		L4uPKgmmwooHguJ3FfSyZ/9++6M=
+		o7YnEQzOF9wgJH6JxaICQLvhhzQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,7 +74,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+ehm9Gm+Y2HrQCkONSsX00ioyldOigbWHLs2BN8r+gE=
+			CGjVeFI8xFnR8D/oR5t17uyO/wVfquRWIvr4Wh37A/E=
 			</data>
 		</dict>
 		<key>Login.storyboardc/Info.plist</key>
@@ -116,14 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7HxkwxsqxJkrXOnEJdJRg2DJLMx0lV0na159XZyTzE=
+			i2nWniHrIagFEBIJN3LMaqkL+0YWp3r6c/jkvkvf5AA=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K6Xz0T90BI5ROxVimn+0DLEMMTiFgJ2rFmqeZvQNxM8=
+			RzMEPn4EySX9cwv0P/0+Gf3dNLaGmK1n19do0J0xpd4=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			K6Xz0T90BI5ROxVimn+0DLEMMTiFgJ2rFmqeZvQNxM8=
+			RzMEPn4EySX9cwv0P/0+Gf3dNLaGmK1n19do0J0xpd4=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SrMOVRz3gkjR9z5ObJo3zUm3bSqSHkzanimipzE95tQ=
+			b8fnoBlbePVIdnedx80qGpxVgkZ/yx6jyDJKfDl8Ng8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -55,19 +55,13 @@
         "children": [
           {
             "kind": "Function",
-            "name": "startLogin",
-            "printedName": "startLogin(on:with:listener:)",
+            "name": "initializeSingularity",
+            "printedName": "initializeSingularity(params:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIViewController",
-                "printedName": "UIKit.UIViewController",
-                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -87,20 +81,44 @@
                   }
                 ],
                 "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "SingularityListener",
-                "printedName": "SingularityKit.SingularityListener",
-                "usr": "c:@M@SingularityKit@objc(pl)SingularityListener"
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:with:listener:",
-            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on4with8listenerySo16UIViewControllerC_SDySSypGAA0A8Listener_ptFZ",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)initializeSingularityWithParams:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC010initializeA06paramsySDySSypG_tFZ",
             "moduleName": "SingularityKit",
             "static": true,
-            "objc_name": "startLoginOn:with:listener:",
+            "objc_name": "initializeSingularityWithParams:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initializeSingularity",
+            "printedName": "initializeSingularity(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SingularityParams",
+                "printedName": "SingularityKit.SingularityParams",
+                "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)initializeSingularityWith:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC010initializeA04withyAA0A6ParamsC_tFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "objc_name": "initializeSingularityWith:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -111,7 +129,7 @@
           {
             "kind": "Function",
             "name": "startLogin",
-            "printedName": "startLogin(on:params:listener:)",
+            "printedName": "startLogin(parentVC:listener:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -126,9 +144,39 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SingularityParams",
-                "printedName": "SingularityKit.SingularityParams",
-                "usr": "c:@M@SingularityKit@objc(cs)SingularityParams"
+                "name": "SingularityListener",
+                "printedName": "SingularityKit.SingularityListener",
+                "usr": "c:@M@SingularityKit@objc(pl)SingularityListener"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginWithParentVC:listener:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin8parentVC8listenerySo16UIViewControllerC_AA0A8Listener_ptFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "objc_name": "startLoginWithParentVC:listener:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startLogin",
+            "printedName": "startLogin(on:listener:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
               },
               {
                 "kind": "TypeNominal",
@@ -138,11 +186,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:params:listener:",
-            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on6params8listenerySo16UIViewControllerC_AA0A6ParamsCAA0A8Listener_ptFZ",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)startLoginOn:listener:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC10startLogin2on8listenerySo16UIViewControllerC_AA0A8Listener_ptFZ",
             "moduleName": "SingularityKit",
             "static": true,
-            "objc_name": "startLoginOn:params:listener:",
+            "objc_name": "startLoginOn:listener:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -201,6 +249,49 @@
             "declKind": "Func",
             "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)openLoginDrawer",
             "mangledName": "$s14SingularityKit0A14SDKInitializerC15openLoginDraweryyFZ",
+            "moduleName": "SingularityKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scene",
+            "printedName": "scene(_:openURLContexts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UIOpenURLContext>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIOpenURLContext",
+                    "printedName": "UIKit.UIOpenURLContext",
+                    "usr": "c:objc(cs)UIOpenURLContext"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@SingularityKit@objc(cs)SingularitySDKInitializer(cm)scene:openURLContexts:",
+            "mangledName": "$s14SingularityKit0A14SDKInitializerC5scene_15openURLContextsySo7UISceneC_ShySo16UIOpenURLContextCGtFZ",
             "moduleName": "SingularityKit",
             "static": true,
             "declAttributes": [
@@ -509,6 +600,23 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "SingularityKit",
         "declAttributes": [
@@ -1037,6 +1145,20 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "SingularityKit"
       }
     ],
     "json_format_version": 8
@@ -1078,9 +1200,9 @@
       "value": "true"
     },
     {
-      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/SingularityLoginVC.swift",
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/Views\/CachedWebView.swift",
       "kind": "StringLiteral",
-      "offset": 416,
+      "offset": 220,
       "length": 30,
       "value": "\"Version\/8.0.2 Safari\/600.2.5\""
     },
@@ -1144,22 +1266,36 @@
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
       "offset": 635,
-      "length": 29,
-      "value": "\"https:\/\/app.s9y-sandbox.gg\/\""
+      "length": 47,
+      "value": "\"https:\/\/mobile-sdk.s9y.gg?api_key=2&env_key=0\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 691,
-      "length": 21,
-      "value": "\"https:\/\/app.s9y.gg\/\""
+      "offset": 709,
+      "length": 47,
+      "value": "\"https:\/\/mobile-sdk.s9y.gg?api_key=2&env_key=1\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
       "kind": "StringLiteral",
-      "offset": 738,
-      "length": 29,
-      "value": "\"https:\/\/qal.s9y-sandbox.gg\/\""
+      "offset": 782,
+      "length": 47,
+      "value": "\"https:\/\/mobile-sdk.s9y.gg?api_key=2&env_key=2\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 884,
+      "length": 22,
+      "value": "\"https:\/\/auth0.s9y.gg\""
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Utils\/SConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 964,
+      "length": 30,
+      "value": "\"https:\/\/auth0.s9y-sandbox.gg\""
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Common\/Storyboard.swift",
@@ -1254,8 +1390,15 @@
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 880,
+      "offset": 1068,
       "length": 3,
       "value": "400"
     }
