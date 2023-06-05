@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "Singularity-iOS"
-  s.version             = "1.5.0"
+  s.version             = "1.6.0"
   s.license             = "MIT"
   s.homepage            = "https://www.s9y.gg/"
   s.author              = { "Neobrix" => "devsupport@s9y.gg"  }

@@ -1,10 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SingularityKit
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
+import CoinbaseWalletSDK
+import CommonCrypto
+import CryptoKit
 import Foundation
-import SafariServices
 import Swift
 import UIKit
 import WebKit
@@ -13,10 +15,14 @@ import _StringProcessing
 @_inheritsConvenienceInitializers @objc public class SingularitySDKInitializer : ObjectiveC.NSObject {
   @objc public static func initializeSingularity(params: [Swift.String : Any])
   @objc public static func initializeSingularity(with params: SingularityKit.SingularityParams)
-  @objc public static func startLogin(parentVC: UIKit.UIViewController, listener: SingularityKit.SingularityListener)
-  @objc public static func startLogin(on parentVC: UIKit.UIViewController, listener: SingularityKit.SingularityListener)
+  @objc public static func startLogin(parentVC: UIKit.UIViewController, listener: any SingularityKit.SingularityListener)
+  @objc public static func customLogin(loginPlatform: SingularityKit.SingularityCustomLoginPlatfrom, accessToken: Swift.String?, idToken: Swift.String?, listener: any SingularityKit.SingularityListener)
+  @objc public static func startLogin(on parentVC: UIKit.UIViewController, listener: any SingularityKit.SingularityListener)
   @objc public static func getUserInfo() -> [Swift.String : Any]
-  @objc public static func openLoginDrawer()
+  @objc public static func requestPersonalSignature(message: Swift.String)
+  @objc public static func requestTypedSignature(jsonString: Swift.String)
+  @objc public static func openLoginDrawer(parentVC: UIKit.UIViewController? = nil)
+  @objc public static func initiateTransactionFlow(requestString: Swift.String, signature: Swift.String)
   @objc public static func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
   @objc override dynamic public init()
   @objc deinit
@@ -26,6 +32,54 @@ import _StringProcessing
   @objc func onSingularityClose()
   @objc func onSingularityLogout()
   @objc func onSingularityError(message: Swift.String, code: Swift.Int)
+  @objc func onSignatureReceived(signature: Swift.String)
+}
+public struct HMAC {
+  public enum Algorithm {
+    case sha1
+    case sha256
+    case sha384
+    case sha512
+    case sha224
+    public var algorithm: CommonCrypto.CCHmacAlgorithm {
+      get
+    }
+    public var digestLength: Swift.Int {
+      get
+    }
+    public static func == (a: SingularityKit.HMAC.Algorithm, b: SingularityKit.HMAC.Algorithm) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func sign(data: Foundation.Data, algorithm: SingularityKit.HMAC.Algorithm, key: Foundation.Data) -> Foundation.Data
+  public static func sign(message: Swift.String, algorithm: SingularityKit.HMAC.Algorithm, key: Swift.String) -> Swift.String?
+}
+extension Foundation.Data {
+  public var sha1: Foundation.Data {
+    get
+  }
+  public var sha224: Foundation.Data {
+    get
+  }
+  public var sha256: Foundation.Data {
+    get
+  }
+  public var sha384: Foundation.Data {
+    get
+  }
+  public var sha512: Foundation.Data {
+    get
+  }
+  public func hmac(key: Foundation.Data, algorithm: SingularityKit.HMAC.Algorithm) -> Foundation.Data
+}
+public struct Digest {
+  public static func sha1(bytes: Swift.UnsafeRawBufferPointer, length: Swift.UInt32) -> [Swift.UInt8]
+  public static func sha224(bytes: Swift.UnsafeRawBufferPointer, length: Swift.UInt32) -> [Swift.UInt8]
+  public static func sha256(bytes: Swift.UnsafeRawBufferPointer, length: Swift.UInt32) -> [Swift.UInt8]
+  public static func sha384(bytes: Swift.UnsafeRawBufferPointer, length: Swift.UInt32) -> [Swift.UInt8]
+  public static func sha512(bytes: Swift.UnsafeRawBufferPointer, length: Swift.UInt32) -> [Swift.UInt8]
 }
 @objc public class SingularityParams : ObjectiveC.NSObject, Foundation.NSCopying {
   @objc public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
@@ -42,6 +96,20 @@ import _StringProcessing
     get
   }
 }
+@objc public enum SingularityCustomLoginPlatfrom : Swift.Int {
+  case auth0 = 0
+  case firebase = 1
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension SingularityKit.HMAC.Algorithm : Swift.Equatable {}
+extension SingularityKit.HMAC.Algorithm : Swift.Hashable {}
 extension SingularityKit.SingularityEnvironMent : Swift.Equatable {}
 extension SingularityKit.SingularityEnvironMent : Swift.Hashable {}
 extension SingularityKit.SingularityEnvironMent : Swift.RawRepresentable {}
+extension SingularityKit.SingularityCustomLoginPlatfrom : Swift.Equatable {}
+extension SingularityKit.SingularityCustomLoginPlatfrom : Swift.Hashable {}
+extension SingularityKit.SingularityCustomLoginPlatfrom : Swift.RawRepresentable {}

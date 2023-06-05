@@ -50,7 +50,7 @@ podTrunkPush() {
 }
 
 podName="Singularity-iOS"
-podVersion="1.5.0"
+podVersion="1.6.0"
 
 podSpec="${podName}.podspec"
 tag="${podVersion}"
