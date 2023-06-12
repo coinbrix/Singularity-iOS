@@ -4,6 +4,7 @@ Pod::Spec.new do |s|
   s.license             = "MIT"
   s.homepage            = "https://www.s9y.gg/"
   s.author              = { "Neobrix" => "devsupport@s9y.gg"  }
+  s.swift_versions      = '5.0'
 
   s.summary             = "The Singularity SDK provides basic classes and method used across other framewroks"
   s.description         = "The Singularity SDK provides basic classes and method used across other framewroks. It used for manage entity and wallets"
@@ -14,5 +15,5 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "13.0"
   s.vendored_frameworks = 'SingularityKit.xcframework'
-    s.dependency            'CoinbaseWalletSDK'
+    s.dependency            'CoinbaseWalletSDK', '~> 1.0.3' , :optional => true
 end
