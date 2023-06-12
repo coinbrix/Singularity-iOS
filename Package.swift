@@ -12,6 +12,10 @@ let package = Package(
             name: "Singularity-iOS",
             targets: ["SingularityKit"]),
     ],
+    dependencies: [
+            // Dependencies declare other packages that this package depends on.
+        .package(url: "https://github.com/coinbase/wallet-mobile-sdk.git", from: "1.0.3"),
+    ],
     targets: [
         .binaryTarget(name: "SingularityKit", path: "./SingularityKit.xcframework")
     ]
