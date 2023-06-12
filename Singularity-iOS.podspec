@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "13.0"
   s.vendored_frameworks = 'SingularityKit.xcframework'
-    s.dependency            'CoinbaseWalletSDK', '~> 1.0.3' , :optional => true
+    s.dependency            'CoinbaseWalletSDK'
 end
