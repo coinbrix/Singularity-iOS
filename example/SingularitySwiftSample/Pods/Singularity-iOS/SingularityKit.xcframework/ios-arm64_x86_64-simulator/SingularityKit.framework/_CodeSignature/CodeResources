@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		PCDMxojJAhv3ORfS+wwlFA8yOIA=
+		1URcXjj9k4ydopROBt7jfHniyoY=
 		</data>
 		<key>Headers/SingularityKit-Swift.h</key>
 		<data>
-		TCe12A18pMB6huzjrmas+ky28vE=
+		XzotCLbn2N6fHK1Hloy7CtMiFMQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		f9jn/ohAOwg0u6HWp0xfthBy3ro=
+		UgtOcilHS0+dJQVKK/WGfsN0nZ8=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -38,43 +38,43 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		hqgASrgEYFUhOmn1GQjuE7e0FbE=
+		qZHuZkfsHVpK6SyMw8hpPLMf+V4=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eSpdoFdN3b2qoYCfO9f05XHyNrk=
+		5EEfjzc8OnRRqMMl/M7Jyfx84VA=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ojM6RRnG9OcXJIMxfypA8tqKNUE=
+		OybZTE0Iq/xMApSOqrTZ86IRM4U=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eSpdoFdN3b2qoYCfO9f05XHyNrk=
+		5EEfjzc8OnRRqMMl/M7Jyfx84VA=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rwgL0ALLCO/CO4p11md30Fy2Pjk=
+		6oaDxj7tfOQnWbQHfpaY43TI0Kc=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		hqgASrgEYFUhOmn1GQjuE7e0FbE=
+		qZHuZkfsHVpK6SyMw8hpPLMf+V4=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		M/DkHidmzM0Mwex+lE2pM3IXPrk=
+		kBSPQ2ZVJvfIEHDsNyDUCQ8MtPM=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		lWcLXv6BaHkIwWfAwmtOmdtS1dE=
+		gcP8dr5611vBxL0N0mxartpkV0A=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		M/DkHidmzM0Mwex+lE2pM3IXPrk=
+		kBSPQ2ZVJvfIEHDsNyDUCQ8MtPM=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0YQboq+ETpdmgLSLNsBByk1hh74=
+		WAGvgncZOcxEpHaan+FqTOKI3ek=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,14 +87,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LZBOJ7Sr0V7ykg7vny08xFqflBDE1AfpIinYp9nrI74=
+			76KehTP/PLgzu5Vxh+Nh6LTEb12aevhUv/TI+mOLGmM=
 			</data>
 		</dict>
 		<key>Headers/SingularityKit-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NOWHmZYicvgl0PeoV1JeWfVt/BA8ebDPvBo4uhH07KI=
+			cb/LR0Xyo+ITpCUn1Ji8x2HcKrkX9ZaaJ54n7ApNprE=
 			</data>
 		</dict>
 		<key>Login.storyboardc/Info.plist</key>
@@ -136,70 +136,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7HxkwxsqxJkrXOnEJdJRg2DJLMx0lV0na159XZyTzE=
+			fCtEGaEG6sGAC1CoQpnF/onI6sReYOBj9L8ZMsnV8ZE=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3J1vgBLAxaKG2ZYddan7tojgdYuU6nW8VFLBa1z6aI=
+			IkFgJsq52pAeh+gj1oSRL23lMyJk+hd9bJLJ7RWD7vk=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MSnSZprVV3yos1Hma9KB1TRqECrgyZR+EZ7kumFTNs0=
+			G6QRSfajSScR2pfm8msYstL/iq8oSEbXdjalDgpmlA0=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e3J1vgBLAxaKG2ZYddan7tojgdYuU6nW8VFLBa1z6aI=
+			IkFgJsq52pAeh+gj1oSRL23lMyJk+hd9bJLJ7RWD7vk=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dEvlyoMgA+39YeI70TvTe0vtoQtcvzGWq+YCnuHPWY4=
+			BaiOsekrbiOagUZ1MHlegIlGajRB91z7y2pTII4Zufo=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U7HxkwxsqxJkrXOnEJdJRg2DJLMx0lV0na159XZyTzE=
+			fCtEGaEG6sGAC1CoQpnF/onI6sReYOBj9L8ZMsnV8ZE=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xeptfZYVEWclj8Yze+4VOUPlx3uorTz5iE6y3RraFI=
+			vsCmxxzm6YbDyh7BP0FFjxo9lDseoa8Ku+xOOjaxIEw=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SYsrXaMrM47ZfGPWpgiTm18OLY9UGLLyOwi1aEVY81o=
+			8kpfXxNKxKL+WgvT8geELgAyt5IgPg0Dr2o2r+LWoxw=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5xeptfZYVEWclj8Yze+4VOUPlx3uorTz5iE6y3RraFI=
+			vsCmxxzm6YbDyh7BP0FFjxo9lDseoa8Ku+xOOjaxIEw=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			01fDt/2zeZiPgsPxoYdoRDuXihnFzbff+y7tGuVodbk=
+			ydmoASRyceVZRqZfly/OhZ0s6rMLquGDx6JlsOMmvh0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

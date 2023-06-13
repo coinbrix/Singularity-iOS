@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4XK36nyXwLM8kL70Pr1/qPZVIYU=
+		SHy0vrlp3LvkKwx3qjTM0HYk1jU=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		qZHuZkfsHVpK6SyMw8hpPLMf+V4=
+		o0gnto1O8NB8rkdpWjI6c3V68zE=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		lxn6GfMxyQAM9dZsmkp018vwGnI=
+		K5j6GGjuIIkaWsuUqO3uu/owFp8=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -50,11 +50,11 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		lxn6GfMxyQAM9dZsmkp018vwGnI=
+		K5j6GGjuIIkaWsuUqO3uu/owFp8=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		YMGtqsZFM3RACgiST3T/Tq+Ypq4=
+		9YRFyln/vWMsyHUUq+qj8ikuvXU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -116,14 +116,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fCtEGaEG6sGAC1CoQpnF/onI6sReYOBj9L8ZMsnV8ZE=
+			rfBOY4GRrR4HpjwuSIm2x8wRYY/xgDw8gz/WXUae/b8=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BxzwKuTuG9kVG5FyZCJlYqo0Jff4wbsbRY9t34o02c=
+			Uwqz22/D8ut9d5ZsUxcVAPVj+WllokDBxVOsjJvstiI=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -137,14 +137,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4BxzwKuTuG9kVG5FyZCJlYqo0Jff4wbsbRY9t34o02c=
+			Uwqz22/D8ut9d5ZsUxcVAPVj+WllokDBxVOsjJvstiI=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8l2rrFu571Yo79U3XdDHakho/egRPtmuKCWfdpPuhk=
+			tkD7VqzqjL1ceJZd4dtLfTU+2t6EDV8iVqbv9v1nh1Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

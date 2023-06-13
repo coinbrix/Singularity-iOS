@@ -49,13 +49,6 @@
         "moduleName": "SingularityKit"
       },
       {
-        "kind": "Import",
-        "name": "CoinbaseWalletSDK",
-        "printedName": "CoinbaseWalletSDK",
-        "declKind": "Import",
-        "moduleName": "SingularityKit"
-      },
-      {
         "kind": "TypeDecl",
         "name": "SingularitySDKInitializer",
         "printedName": "SingularitySDKInitializer",
@@ -517,7 +510,8 @@
         "moduleName": "SingularityKit",
         "declAttributes": [
           "AccessControl",
-          "ObjC"
+          "ObjC",
+          "RawDocComment"
         ],
         "superclassUsr": "c:objc(cs)NSObject",
         "inheritsConvenienceInitializers": true,
@@ -2326,13 +2320,6 @@
         "moduleName": "SingularityKit"
       },
       {
-        "kind": "Import",
-        "name": "CoinbaseWalletSDK",
-        "printedName": "CoinbaseWalletSDK",
-        "declKind": "Import",
-        "moduleName": "SingularityKit"
-      },
-      {
         "kind": "TypeDecl",
         "name": "Data",
         "printedName": "Data",
@@ -3323,14 +3310,14 @@
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 330,
+      "offset": 336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shubham.garg\/Documents\/GitHub\/Gamepay-iOS\/Singularity\/SingularityKit\/Module\/Login\/ViewModels\/SingularityEventHandler.swift",
       "kind": "IntegerLiteral",
-      "offset": 3988,
+      "offset": 4126,
       "length": 3,
       "value": "400"
     }
