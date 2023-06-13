@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.source              = { :git => "https://github.com/coinbrix/Singularity-iOS.git",
                             :tag => "#{s.version}"
                           }
+    s.vendored_frameworks = 'SingularityKit.xcframework'
   
   s.ios.deployment_target = "13.0"
 
