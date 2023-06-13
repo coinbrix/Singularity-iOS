@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = "Singularity-iOS"
-  s.version             = "1.6.3"
+  s.version             = "1.6.4"
   s.license             = "MIT"
   s.homepage            = "https://www.s9y.gg/"
   s.author              = { "Neobrix" => "devsupport@s9y.gg"  }
@@ -14,8 +14,5 @@ Pod::Spec.new do |s|
                           }
   
   s.ios.deployment_target = "13.0"
-  s.vendored_frameworks = 'SingularityKit.xcframework'
-   s.subspec 'CoinbaseIntegration' do |integration|
-    integration.dependency 'CoinbaseWalletSDK'
-  end
+
 end
