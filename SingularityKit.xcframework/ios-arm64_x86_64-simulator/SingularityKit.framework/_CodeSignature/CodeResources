@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		WC5WhSfi1k9CgouRTa/RK/UQ8Vg=
+		E9mppI2+9T4xlsVgJxSKyMgdKs8=
 		</data>
 		<key>Login.storyboardc/Info.plist</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		16hI8OqjGa4E1oANSZKBeTcn7o0=
+		aoTdz+uayHVyA8eLIljIk7KxLMA=
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		M12h6TJfkR3PRLxemT+A/zUfHGY=
+		71JBZuh4Ysoef1KWvgJ3HiA1lYs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -164,7 +164,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0XDB+EQhh6o31gZNaooByz+9bsNnuJHH7XfBDpuHFfI=
+			3f4yZIbCqf38KS9Hy8kbwWOQ+nhIiO70xckG3GVPMTg=
 			</data>
 		</dict>
 		<key>Modules/SingularityKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -199,7 +199,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			XoM0WhKqyk/8QJVyewfAzzEcWYh4C7/i7lv18i3Hj2s=
+			yTl1yk+94XORZiAUUEk9b2B2meIxnPAZN74RWb98Vrs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
